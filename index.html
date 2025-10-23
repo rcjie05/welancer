@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeLancer - Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">WeLancer</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Use Cases</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Company</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button onclick="window.location.href='login.html'">Sign In</button>
+            <button onclick="window.location.href='register.html'" class="signup">Sign Up</button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Daily Task Management</h1>
+            <p>Become part of an international, fast-growing expert team, as the ERP part of an international, fast-growing expert team.</p>
+            <div class="buttons">
+                <button onclick="window.location.href='login.html'" class="get-started">Get Started</button>
+                <button onclick="window.location.href='dashboard.html'" class="discover">Discover Features</button>
+            </div>
+        </section>
+        <section class="dashboard-preview">
+            <div class="preview-card">
+                <h3>Dashboard Preview</h3>
+                <div class="preview-content">
+                    <div class="card-item">
+                        <h4>Task Lists</h4>
+                        <p>Feb 5th</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>Calendar</h4>
+                        <p>Feb 2020</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>Welcome</h4>
+                        <p>Angelina Jackson</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>Messages</h4>
+                        <p>John Doe</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>Top Skills</h4>
+                        <p>UI Design, Animation</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>Weekly Activity</h4>
+                        <p>Graph Placeholder</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        const users = [
+            { id: 1, name: "Rcjie Villena", email: "rcjie@gmail.com", password: "admin123" }
+        ];
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

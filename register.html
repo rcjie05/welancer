@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeLancer - Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Register</h2>
+            <input type="text" id="reg-email" placeholder="Email" required>
+            <input type="password" id="reg-password" placeholder="Password" required>
+            <button onclick="register()">Register</button>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </div>
+    <script>
+        const users = [
+            { id: 1, name: "Rcjie Villena", email: "rcjie@gmail.com", password: "admin123" }
+        ];
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
